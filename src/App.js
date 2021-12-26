@@ -6,15 +6,20 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-      React Dictionary App
+    <strong>  My Dictionary App </strong>
       </header>
      <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
       <footer className="App-footer">
-    <small>  Coded by Mozhdeh Matalebi </small>
+   
+    <small>
+        This project was coded by Mozhdeh Matalebi and is {" "} <a href="https://github.com/GildaMti/Dictionary-app" >open-sourced on Github </a>
+      </small>
+      
       </footer>
       </div>
     </div>
   );
 }
+
