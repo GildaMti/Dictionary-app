@@ -3,6 +3,10 @@
   font-weight:bold;
   margin-bottom:20px;
 }
+.app {
+  max-width:960px;
+  margin:0 auto;
+}
 .Dictionary section{
   background:white;
 padding:30px;
